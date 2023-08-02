@@ -1,9 +1,3 @@
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
-}
-
 :root {
     --vanilla: #f2f3aeff;
     --flax: #edd382ff;
