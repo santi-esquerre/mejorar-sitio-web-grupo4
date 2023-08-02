@@ -18,11 +18,7 @@ body {
     --oxford-blue: #020122ff;
 }
 
-h1 {
-    color: var(--flax);
-}
-
-h2 {
+h1, h2 {
     color: var(--sandy-brown);
 }
 
