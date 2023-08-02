@@ -5,6 +5,9 @@ body {
     color: var(--oxford-blue);
     font-family: Poppins;
 }
+p {
+    color: var(--vanilla);
+}
 
 .image{
     border: 2px solid var(--cinnabar);
