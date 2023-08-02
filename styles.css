@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(255, 255, 165);
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> 932e25e453190cd1d67ee4a41edf305c11c10a0d
+}
+
+.image{
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
+}
