@@ -16,4 +16,9 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    transition: background-color 0.3s; 
 }
+
+.link-button:hover {
+    background-color: #df4a4a;
+  }
