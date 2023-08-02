@@ -1,21 +1,38 @@
 body {
-    background-color: rgb(255, 255, 165);
     text-align: center;
     background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url(Fondo.jpg);
+    background-color: var(--vanilla);
+    color: var(--oxford-blue);
+    font-family: Poppins;
 }
 
 .image{
-    border: 5px solid green;
+    border: 2px solid var(--cinnabar);
     border-radius: 10px;
     height: 400px;
 }
 
+:root {
+    --vanilla: #f2f3aeff;
+    --flax: #edd382ff;
+    --sandy-brown: #fc9e4fff;
+    --cinnabar: #f4442eff;
+    --oxford-blue: #020122ff;
+}
+
+h1, h2 {
+    color: var(--sandy-brown);
+}
+
 .link-button {
+    background-color: var(--cinnabar);
+    color: var(--vanilla);
+    padding: 10px 20px;
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+.link-button:hover {
+    background-color: var(--sandy-brown);
 }
